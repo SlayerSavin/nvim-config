@@ -89,6 +89,9 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-tree.lua"
   use "akinsho/bufferline.nvim"
 
+  -- Null-ls
+  use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+
 
 
   -- Automatically set up your configuration after cloning packer.nvim
