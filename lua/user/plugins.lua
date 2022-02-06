@@ -95,6 +95,9 @@ return packer.startup(function(use)
   -- Lualine
   use "nvim-lualine/lualine.nvim"
 
+  -- Toggle Term
+  use "akinsho/toggleterm.nvim"
+
 
 
   -- Automatically set up your configuration after cloning packer.nvim
