@@ -75,6 +75,9 @@ return packer.startup(function(use)
   -- Autopairs
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
 
+  -- Comments
+  use "numToStr/Comment.nvim" -- Easily comment stuff
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
