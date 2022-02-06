@@ -71,6 +71,9 @@ return packer.startup(function(use)
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
+  
+  -- Autopairs
+  use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
 
 
   -- Automatically set up your configuration after cloning packer.nvim
