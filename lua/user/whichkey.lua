@@ -160,9 +160,9 @@ local mappings = {
     },
   },
   n = {
-    name = "NvimTree"
-    r = {"<cmd>NvimTreeRefresh<cr>"}
-  }
+    name = "NvimTree",
+    r = { "<cmd>NvimTreeRefresh<cr>","Refresh NvimTree"},
+  },
   s = {
     name = "Search",
     b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
