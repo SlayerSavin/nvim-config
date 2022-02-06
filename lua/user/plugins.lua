@@ -98,6 +98,9 @@ return packer.startup(function(use)
   -- Toggle Term
   use "akinsho/toggleterm.nvim"
 
+  -- Project
+  use "ahmedkhalf/project.nvim"
+
 
 
   -- Automatically set up your configuration after cloning packer.nvim
