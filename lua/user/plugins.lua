@@ -92,6 +92,9 @@ return packer.startup(function(use)
   -- Null-ls
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
 
+  -- Lualine
+  use "nvim-lualine/lualine.nvim"
+
 
 
   -- Automatically set up your configuration after cloning packer.nvim
