@@ -65,6 +65,12 @@ return packer.startup(function(use)
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
+  
+  -- Tree Sitter
+  use {
+    "nvim-treesitter/nvim-treesitter",
+    run = ":TSUpdate",
+  }
 
 
   -- Automatically set up your configuration after cloning packer.nvim
